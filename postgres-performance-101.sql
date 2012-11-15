@@ -86,6 +86,9 @@ select pg_cancel_backend(procpid)
    from pg_stat_activity
    where current_query like '%your giant accidental query%';
 
+-- Heroku extras
+-- https://github.com/quarterdome/heroku-pg-extras
+-- Most of the above commands wrapped into
 
 
 
