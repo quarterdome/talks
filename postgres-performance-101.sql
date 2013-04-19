@@ -14,8 +14,8 @@
 
 -- How large is your total data set?
 
-select pg_database_size('apartmentlist_development');
-select pg_size_pretty(pg_database_size('apartmentlist_development'));
+select pg_database_size('de2nq092qkqfxll');
+select pg_size_pretty(pg_database_size('de2nq092qkqfxll'));
 
 -- How large is your table?
 
